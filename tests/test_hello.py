@@ -10,7 +10,7 @@ from .hwtest import autograde as grade
 
 
 class HelloTests(HomeworkTestCase):
-  @grade.weight(100)
+  @grade.score(100)
   def test(self):
     output = self.runScript("hello.py")
     self.assertEqual('Hello, world!\n', output)
