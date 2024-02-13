@@ -10,7 +10,7 @@
     ".devcontainer/": true,
     ".github/": true,
     ".vscode/": true,
-    "mspythonconfig.json": true,
+    //"mspythonconfig.json": true,  // Hiding this will cause Python extension to not activate
     "requirements*.txt": true,
     "util/": true,
     "tests/": true
